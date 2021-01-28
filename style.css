@@ -717,6 +717,10 @@ ul li {
         -o-transition: ease-in-out 5s;
 	transition: ease-in-out 5s;
 	background-position: top;
+	-webkit-transition: background-position ease-in-out 5s;
+  -moz-transition: background-position ease-in-out 5s;
+  -o-transition: background-position ease-in-out 5s;
+  transition: background-position ease-in-out 5s;
 	box-shadow: var(--boxShadow);
 	margin: 20px 0px;
 	position: relative;
