@@ -711,6 +711,10 @@ ul li {
 /* Project-area */
 .single-project-wrapper{
 	height: 250px;
+	-webkit-transition: ease-in-out 5s;
+        -moz-transition: ease-in-out 5s;
+        -ms-transition: ease-in-out 5s;
+        -o-transition: ease-in-out 5s;
 	transition: ease-in-out 5s;
 	background-position: top;
 	box-shadow: var(--boxShadow);
